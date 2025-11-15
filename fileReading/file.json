@@ -1,0 +1,35 @@
+{
+  "name": "Teacher",
+  "age": 25,
+  "is_student": false,
+  "skills": ["Python", "Data Analysis", "Machine Learning"],
+  "contact": {
+    "email": "teacher@example.com",
+    "phone": "+1-555-1234"
+  },
+  "address": {
+    "street": "456 School Rd",
+    "city": "Springfield",
+    "state": "IL",
+    "zip": "62704"
+  },
+  "education": [
+    {
+      "degree": "BSc Education",
+      "institution": "Springfield University",
+      "year": 2020
+    },
+    {
+      "degree": "MSc Mathematics",
+      "institution": "Springfield University",
+      "year": 2022
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Math Teacher",
+      "company": "Springfield High School",
+      "years": 2
+    }
+  ]
+}
