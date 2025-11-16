@@ -253,10 +253,13 @@ def main():
                 if event.key == pygame.K_SPACE:
                     # create a new bullet at the top-center of the player
                     bullet = Bullet(assets, player.rect.centerx, player.rect.top)
+                    bullet2 = Bullet(assets, player.rect.x, player.rect.top)
                     # add the bullet to all_sprites so it is updated and drawn
                     all_sprites.add(bullet)
+                    all_sprites.add(bullet2)
                     # also add it to bullets group for collision handling
                     bullets.add(bullet)
+                    bullets.add(bullet2)
 
         # get the current state of all keys (pressed / not pressed)
         keys = pygame.key.get_pressed()
